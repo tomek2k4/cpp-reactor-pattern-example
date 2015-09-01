@@ -1,0 +1,13 @@
+# generated files
+bin/
+*.o
+*.a
+*.log
+
+# Eclipse project files
+.classpath
+.project
+.settings
+.cproject
+# Local configuration file (sdk path, etc)
+local.properties
