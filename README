@@ -1,5 +1,4 @@
-# know-your-share
-PUM Android class project
+Example of implementation of client server app communicating on sockets in unix environment with use of Reactor Pattern
 
 Licence
 -------
