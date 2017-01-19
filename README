@@ -1,4 +1,17 @@
-Example of implementation of client server app communicating on sockets in unix environment with use of Reactor Pattern
+Example of implementation of client server app communicating on sockets on unix environment with use of Reactor Pattern
+
+Assumptions:
+* 	Simple C++ TCP/IP server and a C client communicating with it. 
+* 	Server should wait for connections on port 5000 and make a usage of Reactor pattern.
+* 	Client should send over simple C structure with it’s ID and a random string. Based on this
+	information server should read client ID and save the message in a text file. 
+*	On the server there should be different text file for each of clients (based on ID).
+*	It should be possible to pass a client ID as an argument to the client and string of 690 	
+	characters should be generated randomly within the client.
+*	Include simple acknowledgement system between server and client, and message validation on the server.
+
+To build all componnents simply run build.sh script
+
 
 Licence
 -------
